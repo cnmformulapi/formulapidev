@@ -30,7 +30,7 @@ imageUrl = r'http://%s:%d/view.png' % (simulationIP, simulationPort)
 setDriveUrl = r'http://%s:%d/?m1=%%.2f&m2=%%.2f&l1=%%d' % (simulationIP, simulationPort)
 
 # Change the current directory to where this script is
-scriptDir = '/home/pi/formulapi'
+scriptDir = '/home/pi/formulapidev'
 os.chdir(scriptDir)
 print 'Running script in directory "%s"' % (scriptDir)
 
