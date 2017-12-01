@@ -52,22 +52,24 @@ while True:
         WaitForWaypoint(5)
         AimForLane(1.0)
         WaitForWaypoint(6)
-        AimForLane(-2)
-        WaitForDistance(1.25)
+        MonsterMotors(100, 80)
+        #AimForLane(-2)
         WaitForWaypoint(7)
-	Speed(30 )       
-	AimForLane(-2.0)
+	Speed(60 )       
+	#AimForLane(-2.0)
         WaitForWaypoint(8)
         #AimForLane(-2.0)
         WaitForWaypoint(9)
-	Speed(80)        
+        Speed(100) #strt away
+	#        
 	#AimForLane(-2.0)
-	WaitForDistance(1)
+	WaitForWaypoint(0) 
         WaitForWaypoint(1)      
-	AimForLane(-2.0)
-	Speed(100)
+	AimForLane(-2.0)#bc why
+	
         WaitForWaypoint(2)
         AimForLane(-2.0)
+        Speed(80) #
 	WaitForWaypoint(3)
 	AimForLane(0)
 	
